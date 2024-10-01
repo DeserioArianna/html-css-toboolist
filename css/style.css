@@ -29,6 +29,7 @@ h1 {
 main {
     background-color: #d3d3d3;
     padding-top: 20px;
+    padding-bottom: 1000px;
 }
 
 button {
@@ -42,23 +43,123 @@ button {
     background-color: #5bcdd5;
     border-color: #ffffff;
     height: 30px;
-    width: 80px;
+    width: 100px;
 }
 
 .button-2 {
-    border-radius: 3px;
     border-color: #ffffff;
     height: 30px;
-    width: 80px;
+    width: 100px;
     color: #d3d3d3;
     background-color: #ffffff;
     border-color: #d3d3d3;
+    text-align: center;
 }
 
 ol {
     list-style-type: none;
+    margin-left: 50px;
+    margin-top: 30px;
 }
 
 ul {
     list-style-type: none;
+    margin-bottom: 20px;
+}
+
+.today, .upcoming, .new-task {
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.check {
+  background-color: #f5f5dc; 
+  border-radius: 50%;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  color: #5bcdd5;
+}
+
+.cross {
+  background-color: #f5f5dc; 
+  border-radius: 50%;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  color: #ff0000;
+}
+
+.editorial {
+    background-color: #0000ff;
+    border-radius: 30px;
+    font-size: 10px;
+    display: inline-block;
+    width: 60px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    color: #ffffff;
+}
+
+.goals {
+    background-color: #8a2be2;
+    border-radius: 30px;
+    font-size: 10px;
+    display: inline-block;
+    width: 60px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    color: #ffffff;
+}
+
+.recruiting {
+    background-color: #008000;
+    border-radius: 30px;
+    font-size: 10px;
+    display: inline-block;
+    width: 60px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    color: #ffffff;
+}
+
+.mobile {
+    background-color: #ffa500;
+    border-radius: 30px;
+    font-size: 10px;
+    display: inline-block;
+    width: 60px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    color: #ffffff;
+}
+
+.website {
+    background-color: #ee82ee;
+    border-radius: 30px;
+    font-size: 10px;
+    display: inline-block;
+    width: 60px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    color: #ffffff;
+}
+
+.sales {
+    background-color: #9acd32;
+    border-radius: 30px;
+    font-size: 10px;
+    display: inline-block;
+    width: 60px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    color: #ffffff;
 }
