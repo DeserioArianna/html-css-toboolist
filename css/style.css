@@ -73,23 +73,25 @@ ul {
 }
 
 .check {
-  background-color: #f5f5dc; 
   border-radius: 50%;
   display: inline-block;
   width: 20px;
   height: 20px;
   text-align: center;
   color: #5bcdd5;
+  border: #5bcdd5 1px solid;
+  margin-right: 5px;
 }
 
-.cross {
-  background-color: #f5f5dc; 
+.cross { 
   border-radius: 50%;
   display: inline-block;
   width: 20px;
   height: 20px;
   text-align: center;
   color: #ff0000;
+  border: #ff0000 1px solid;
+  margin-right: 5px;
 }
 
 .editorial {
