@@ -41,9 +41,10 @@ button {
     margin-left: 50px;
     color: #ffffff;
     background-color: #5bcdd5;
-    border-color: #ffffff;
+    border-color: 1px solid;
     height: 30px;
     width: 100px;
+    border-radius: 5px;
 }
 
 .button-2 {
@@ -54,6 +55,8 @@ button {
     background-color: #ffffff;
     border-color: #d3d3d3;
     text-align: center;
+    border: 3px solid;
+    border-radius: 5px;
 }
 
 ol {
